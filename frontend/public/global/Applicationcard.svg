@@ -1,0 +1,110 @@
+<svg id="Application_card" data-name="Application card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="324" height="271" viewBox="0 0 324 271">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_460" data-name="Tracé 460" d="M0,0H324V270.2H0Z" transform="translate(1357 28.431)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebecf0"/>
+      <stop offset="1" stop-color="#ebecf0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ebecf0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcddde"/>
+      <stop offset="0.112" stop-color="#d2d3d4"/>
+      <stop offset="1" stop-color="#898b8e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.114" y1="0.114" x2="0.86" y2="0.86" xlink:href="#linear-gradient-2"/>
+    <filter id="Ellipse_22" x="129.933" y="221.028" width="92.36" height="92.36" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-color="#bfbfbf" flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="-0.065" y1="-0.065" x2="1.203" y2="1.203" xlink:href="#linear-gradient-3"/>
+    <filter id="Rectangle_304" x="132.037" y="170.5" width="191.463" height="69.667" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#2c4a52"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="0.162" y1="0.162" x2="0.789" y2="0.789" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2990e9"/>
+      <stop offset="1" stop-color="#382aff"/>
+    </linearGradient>
+  </defs>
+  <text id="Get_into_your_interface_" data-name="Get into your interface " transform="translate(36 48)" fill="#fff" font-size="22.5" font-family="Raleway" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Get into your interface </tspan></text>
+  <g id="Groupe_212" data-name="Groupe 212" transform="translate(-1168 -217)">
+    <text id="Continue_on_your_browser_" data-name="Continue on your browser " transform="translate(1205 356)" fill="#fff" font-size="14" font-family="Inter" font-weight="300" letter-spacing="0.02em"><tspan x="0" y="0">Continue on your browser </tspan></text>
+    <g id="arrow" transform="translate(1384 358) rotate(-90)">
+      <path id="Tracé_447" data-name="Tracé 447" d="M174.55,265.446a.836.836,0,0,0-.619-.25.877.877,0,0,0-.631.25l-3.49,3.7-3.489-3.7a.88.88,0,0,0-.632-.25.836.836,0,0,0-.619.25.822.822,0,0,0,0,1.2l4.063,4.311a.837.837,0,0,0,.313.187,1.351,1.351,0,0,0,.729,0,.837.837,0,0,0,.313-.187l4.063-4.311a.822.822,0,0,0,0-1.2Z" transform="translate(-164.81 -265.196)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_213" data-name="Groupe 213" transform="translate(-1168 -276)">
+    <text id="Get_your_Mobile_app" data-name="Get your Mobile app" transform="translate(1205 356)" fill="#fff" font-size="14" font-family="Inter" font-weight="300" letter-spacing="0.02em"><tspan x="0" y="0">Get your Mobile app</tspan></text>
+    <g id="arrow-2" data-name="arrow" transform="translate(1344 351)">
+      <path id="Tracé_447-2" data-name="Tracé 447" d="M174.55,265.446a.836.836,0,0,0-.619-.25.877.877,0,0,0-.631.25l-3.49,3.7-3.489-3.7a.88.88,0,0,0-.632-.25.836.836,0,0,0-.619.25.822.822,0,0,0,0,1.2l4.063,4.311a.837.837,0,0,0,.313.187,1.351,1.351,0,0,0,.729,0,.837.837,0,0,0,.313-.187l4.063-4.311a.822.822,0,0,0,0-1.2Z" transform="translate(-164.81 -265.196)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_de_masques_1" data-name="Groupe de masques 1" transform="translate(-1357 -28)" clip-path="url(#clip-path)">
+    <g id="Groupe_221" data-name="Groupe 221" transform="translate(1372 192.255)">
+      <g id="Groupe_214" data-name="Groupe 214" transform="translate(0)">
+        <rect id="Rectangle_301" data-name="Rectangle 301" width="246.991" height="194.811" rx="24" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_302" data-name="Rectangle 302" width="246.991" height="194.811" rx="26.982" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="Groupe_220" data-name="Groupe 220" transform="translate(17.15 18.065)">
+        <g id="Groupe_215" data-name="Groupe 215" transform="translate(3.611 41.426)">
+          <text id="_75_" data-name="75%" transform="translate(19.166 7)" fill="#777" font-size="7" font-family="SegoeUI, Segoe UI"><tspan x="-5.819" y="0">75</tspan><tspan y="0" font-size="5">%</tspan></text>
+          <path id="Tracé_455" data-name="Tracé 455" d="M169.976,299l3.162-4.052a.737.737,0,0,1,1.161,0L177.462,299a.737.737,0,0,1-.582,1.19h-6.324A.737.737,0,0,1,169.976,299Z" transform="translate(-169.818 -291.885)" fill="#777"/>
+        </g>
+        <g id="Groupe_216" data-name="Groupe 216" transform="translate(73.55 14.475)">
+          <path id="Tracé_456" data-name="Tracé 456" d="M286.2,403.826a65.487,65.487,0,0,1-65.412-65.412,2.745,2.745,0,0,1,5.489,0A59.924,59.924,0,1,0,286.2,278.489a2.745,2.745,0,0,1,0-5.489,65.413,65.413,0,1,1,0,130.826Z" transform="translate(-220.783 -273)" fill="#132e35"/>
+        </g>
+        <g id="Groupe_217" data-name="Groupe 217" transform="translate(107.157 29.113)">
+          <path id="Tracé_457" data-name="Tracé 457" d="M277.078,385.218a50.317,50.317,0,0,1-30.723-10.347,2.745,2.745,0,0,1,3.324-4.369,44.875,44.875,0,0,0,27.4,9.227,45.286,45.286,0,0,0,0-90.572,2.745,2.745,0,0,1,0-5.489,50.775,50.775,0,0,1,0,101.551Z" transform="translate(-245.272 -283.667)" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -32.15, -182.32)" filter="url(#Ellipse_22)">
+          <circle id="Ellipse_22-2" data-name="Ellipse 22" cx="35.68" cy="35.68" r="35.68" transform="translate(135.43 226.53)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <text id="_75_2" data-name="75%" transform="translate(140.926 86.485)" fill="#777" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-13.535" y="0">75</tspan><tspan y="0" font-size="12">%</tspan></text>
+        <g id="Groupe_218" data-name="Groupe 218" transform="translate(0 58.806)">
+          <path id="Tracé_458" data-name="Tracé 458" d="M176.153,343.051a4.983,4.983,0,1,1-4.983-4.983A4.983,4.983,0,0,1,176.153,343.051Z" transform="translate(-166.187 -338.068)" fill="url(#linear-gradient-5)"/>
+          <text id="Energy_from_the_sun" data-name="Energy from the sun" transform="translate(9.967 6.552)" fill="#939393" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Energy from the sun</tspan></text>
+        </g>
+        <g id="Groupe_219" data-name="Groupe 219" transform="translate(0 76.544)">
+          <path id="Tracé_459" data-name="Tracé 459" d="M176.153,364.8a4.983,4.983,0,1,1-4.983-4.983A4.983,4.983,0,0,1,176.153,364.8Z" transform="translate(-166.187 -359.818)" fill="#2c4a52"/>
+          <text id="Energy_from_network" data-name="Energy from network" transform="translate(9.967 6.552)" fill="#2c4a52" font-size="5" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Energy from network</tspan></text>
+        </g>
+        <text id="_4891.22" data-name="$4891.22" transform="translate(2.467 32.744)" fill="#3d3d3d" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">$4891.22</tspan></text>
+        <text id="YOUR_TOTAL_ENERGY" data-name="YOUR TOTAL ENERGY" transform="translate(55.215 8)" fill="#939393" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="-37.764" y="0">YOUR TOTAL ENERGY</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="Groupe_222" data-name="Groupe 222" transform="translate(-1136 -195)">
+    <rect id="Rectangle_300" data-name="Rectangle 300" width="151" height="26" rx="10" transform="translate(1172 285)" fill="#fff"/>
+    <text id="Download_the_app" data-name="Download the app" transform="translate(1248 303)" fill="#132e35" font-size="14" font-family="Inter" font-weight="600" letter-spacing="0.02em"><tspan x="-63.213" y="0">Download the app</tspan></text>
+  </g>
+  <g id="Groupe_225" data-name="Groupe 225" transform="translate(-82.912 79.373)">
+    <g id="Groupe_223" data-name="Groupe 223">
+      <rect id="Rectangle_303" data-name="Rectangle 303" width="170.463" height="48.667" rx="16.116" transform="translate(220.449 96.627)" fill="url(#linear-gradient-2)"/>
+      <g transform="matrix(1, 0, 0, 1, 82.91, -79.37)" filter="url(#Rectangle_304)">
+        <rect id="Rectangle_304-2" data-name="Rectangle 304" width="170.463" height="48.667" rx="16.116" transform="translate(137.54 176)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <path id="Tracé_461" data-name="Tracé 461" d="M384.783,133.293c-10.167-3.5-14.167-24.666-27.871-21.65-9.277,2.043-17.546,17.761-22.671,17.942-5.313.187-6.563-5.313-11.625-5.125-6.236.231-8.625,8.625-13,7.5s-10.318-13.229-20.875-12.875c-8.708.292-12.875,13.125-19.625,14.208" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text id="Last_7_days" data-name="Last 7 days" transform="translate(247.273 116.92)" fill="#777" font-size="5.959" font-family="SegoeUI, Segoe UI"><tspan x="-14.408" y="0">Last 7 days</tspan></text>
+    <g id="Groupe_224" data-name="Groupe 224">
+      <text id="_22_12" data-name="+22,12" transform="translate(246.479 128.243)" fill="#777" font-size="5.959" font-family="SegoeUI, Segoe UI"><tspan x="-9.109" y="0">+22,12</tspan></text>
+      <path id="Tracé_462" data-name="Tracé 462" d="M231.083,127.429l2.3-2.952a.536.536,0,0,1,.846,0l2.3,2.952a.537.537,0,0,1-.424.867h-4.608A.537.537,0,0,1,231.083,127.429Z" fill="#777"/>
+    </g>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="3.736" cy="3.736" r="3.736" transform="translate(355.56 107.614)" fill="url(#linear-gradient-8)"/>
+  </g>
+  <g id="Rectangle_299" data-name="Rectangle 299" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2">
+    <rect width="324" height="271" rx="20" stroke="none"/>
+    <rect x="1" y="1" width="322" height="269" rx="19" fill="none"/>
+  </g>
+</svg>

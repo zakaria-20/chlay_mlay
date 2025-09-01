@@ -1,9 +1,9 @@
 import React from "react";
-
+// import '../app/globals.css'
 const index = () => {
   return <div>
-    The Main Page
-  </div>;
+        <h1>chelay mlay</h1>
+    </div>;
 };
 
 export default index;
