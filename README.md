@@ -17,13 +17,11 @@ src/
 │   └── [page-name]/     # Page-specific components
 ├── pages/
 │   ├── _app.tsx         # Main layout wrapper
-│   ├── _document.tsx    # HTML document structure
-│   ├── index.tsx        # Home page
-│   └── [routes]/        # All page routes with sub-routes
+│   ├── _document.tsx    # HTML document structure      
+│   └── sub-page.tsx/        # All page routes with sub-routes
 ├── features/
 │   └── [page-name]/     # Page sections and features
-├── styles/
-│   └── globals.css
+├
 └── public/
     └── [assets]
 ```

@@ -1,26 +1,137 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+@theme {
+  --breakpoint-initial: *;
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 820px;
+  --breakpoint-lg: 1300px;
+  /* Colors */
+  --color-primary: #4a5c6a;
+  --color-dark: #11212d;
+  --color-superdark: #06141b;
+  --color-grayish: #707070;
+  --color-lightgray: #ccd0cf;
+  --color-navy: #253745;
+  --color-white: #ffffff;
+  --color-darkgreen: #132e35;
+  --color-softgreen: #69818d;
+  --color-lightgreen: #2c4a52;
+  --mainShadow: 0px 3px 6px rgb(44 74 82);
+  --secShadow: 0px 3px 50px rgb(255 255 255 / 20%);
+
+  /* Fonts */
+  --font-rubik: "Rubik", sans-serif;
+  --font-source: "Source Code Pro", monospace;
+  --font-inter: "Inter", sans-serif;
+  --font-franklin: "Libre Franklin", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+
+  /* Sample animation easings if needed later */
+
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 12px rgba(44, 74, 82, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px 10px rgba(44, 74, 82, 1);
+  }
+  100% {
+    box-shadow: 0 0 12px rgba(44, 74, 82, 0.2);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.glow-border {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+  border-radius: 20px;
+}
+
+.text-shadow-custom {
+  text-shadow: 0px 4px 50px #69818d;
+}
+
+@keyframes star-movement-bottom {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100%, 0%);
+    opacity: 1;
+  }
+}
+
+@keyframes star-movement-top {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100%, 0%);
+    opacity: 1;
+  }
+}
+
+.animate-star-movement-bottom {
+  animation: star-movement-bottom linear infinite alternate;
+}
+
+.animate-star-movement-top {
+  animation: star-movement-top linear infinite alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient linear infinite;
+}
+
+@media (min-width: 576px) and (max-width: 1300px) {
+  header ul .cta {
+    display: flex;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 576px) {
+  header ul .cta button:first-of-type {
+    margin-bottom: 10px;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
